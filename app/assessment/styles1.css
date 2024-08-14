@@ -1,0 +1,22 @@
+*{
+    margin:  0px;
+    padding: 0pa;
+}
+.header_seconed{
+    height:72px;
+    background: var(--Light-a, #FCFAFA);  
+    border:1px solid red;
+
+}
+.main_container{
+    display: flex;
+    width: 1200px;
+    border: 1px solid blue;
+    height:72px;
+    margin:auto;
+
+}
+.logo{
+  margin-top: 20px;
+    
+}

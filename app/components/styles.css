@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+.Header{
+  border: 2px solid;
+  height: 72px;
+  margin:auto;
+  background: var(--Light-a, #FCFAFA); 
+}
+  
+.logo{
+  
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.title{
+    color: #4C4B49;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 45px;
+    line-height: 120%; 
+    letter-spacing: -0.48px;
+    
+    
+    
+    
+}
