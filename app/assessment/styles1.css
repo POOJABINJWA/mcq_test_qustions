@@ -1,37 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-*{
+body{
     margin:  0px;
-    padding: 0pa;
+    padding: 0px;
+    box-sizing: border-box;
 }
 .header_seconed{
-    height:72px;
     background:  #FCFAFA;  
-    border:1px solid red;
+    border: 3px solid green;
+    
 
 }
-.main_container{
+.main_header{
     display: flex;
     width: 1200px;
-    border: 1px solid blue;
     height:72px;
     margin:auto;
+    border: 1px solid blueviolet;
+    justify-content: space-between;
 
 }
 .logo_img{
   margin-top: 18px;
   margin-bottom: 18px;
+  border: 1px solid  rebeccapurple;
+
     
-}
-.submit_div{
-    width: 203px;
-    border: 1px solid;
+} 
+.header_first{
+    display: none;
 }
 
 .submit_button{
     width: 130px;
     height:54px;
-    float: right;
     margin-top: 9px;
     color:  #1F1E1C;
     font-family: Inter;
@@ -39,18 +42,18 @@
     font-weight: 400;
     padding: 16px 35px;
     border-radius: 4px;
-    border: 2px solid  #F4D150;
    background:  #FEEEB4;
+   border: 1px solid #F4D150;
    box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
+}  
+
 .logo_padination{
     width:997px;
-    border: 1px solid red;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    
+} 
 
-
- }
 
 .page_number{
     display: flex;
@@ -59,180 +62,20 @@
     margin-top: 25px;
     margin-bottom: 17px;
     gap:16px;
-    
-    
-
- }
- 
-.pageone{
-    text-align: center;
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-}
- .pagetwo{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-}
-
-.pagethree{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-}
-.pagefour{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid #ff0000;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-}
-.pagefive{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-}
-.pagesix{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-}
-.pageseven{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    gap: 10px;
-    
-}
-.pageeight{
-    /* font-family: "Inria Sans"; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; 
-    border-radius: 30px;
-    border: 1px solid red;
-    width: 10px;
-    padding: 7px 10px 6px 10px;
-    
-   
-}
-.container{
-    width: 894px;
-    border: 2px solid green;
-    margin-left: 103px;
-    margin-right: 203px; 
-    display: flex;
-    margin: auto;
-    
-    
-}
-.timer_filter_div{
-    width:286px;
-    border: 1px solid red;
-    /* height: 871px; */
-    /* float: left; */
-    
-
-} 
-.timer_div{
-    height: 184px;
-    width: 170px;
     border: 1px solid blue;
-    position: relative;
-    margin-left: 32px;
     
-
-}
-.clock_first{  
-    width: 150px;
-    height: 150px;
-    border: 1px solid red;
-    border-radius:100px ;
-}
-.clock_seconed{
-    width: 135px;
-    height: 138px;
-    border: 1px solid red;
-    border-radius:80px ;
-} 
-.filter_div{
-    
-    height: 375px;
-    width: 284px;
-    border: 1px solid blue;
-    margin-top: 20px;
-
 }   
-.Question_assessment_container{
-    width: 560px;
-    border: 3px solid red;
-    margin-left: 40px;
-        
-} 
-.question_container{
-    width: 560px;
-    height: 321px;
-    border: 1px solid black;
-} 
-span{
-    width: 400pz;
-    color:  #1F1E1C;
-    font-family: "Inria Sans";
-    font-size: 16px;
+ 
+ .page {
+    text-align: center;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-}
+    font-weight: 400;
+    border-radius: 30px;
+    border: 2px solid #E0DFDA;
+    /* width: 10px; */
+    /* width: 40px; */
+    padding: 7px 10px 6px 10px;
+    border: 1px solid tomato;
+} 
 
-
-
-
-
-          

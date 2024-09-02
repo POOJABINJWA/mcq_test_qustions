@@ -1,19 +1,24 @@
 import Filter from "./Filters"
-import Questions from "./Questions_assessment"
+import Questions_assessment_container from "./Questions_assessment"
+import "./Timer.css"
+import Mobile_pagination from "./Mobile_pagination"
 
 function Timer(){
     return(
-        <div className="container">
-            <div className="timer_filter_div">
-                <div className="timer_div">
-                    <div className="clock_first">
-                        <div className="clock_seconed"></div>
+        <div className="main_container">
+            <div className="question_timer_container">
+                <div className="timer_filter_div">
+                    <div className="timer_div">
+                        <div className="clock_first">
+                            <div className="clock_seconed"></div>
+                        </div>
+                        <h6>Remaining Time</h6>
                     </div>
-                </div>
-                <Filter />        
+                    <Filter />  
+            
+                </div> 
+                <Questions_assessment_container />      
             </div>  
-            {/* <Filter />   */}
-            <Questions />    
         </div>    
     )
 }

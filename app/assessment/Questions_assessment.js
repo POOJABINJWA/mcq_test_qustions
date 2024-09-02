@@ -1,14 +1,15 @@
+import "./questions.css"
+import Questions from "./Question_box"
 
-function Questions(){
+function Questions_assessment_container(){
     return(
         <div className="Question_assessment_container">
-            <div className="question_container">
-                <span>Question 1</span>
+            <Questions/>
+            {/* <Questions/>
+            <Questions/>    */}
 
-            </div>
-
-        </div>
+        </div>    
     )
 }
 
-export default Questions
+export default Questions_assessment_container

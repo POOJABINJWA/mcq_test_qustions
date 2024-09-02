@@ -1,0 +1,92 @@
+ .main_container{
+    width: 1200px;
+    margin: auto;  
+     
+}
+.question_timer_container{
+    margin-left: 103px;
+    margin-right: 203px;
+    display: flex;
+    margin-bottom: 136px;
+}
+
+.timer_filter_div{
+    position: relative;
+    top: -60px;
+    border: 1px solid red;
+    width: 286px;
+}
+
+.timer_div{
+    width: 150px;
+    margin: auto;
+
+} 
+
+.clock_first{  
+    width: 145px;
+    height: 145px;
+    border: 1px solid red;
+    border-radius:100px ;
+    background:  #EBE9E6;  
+}
+
+.clock_seconed{
+    width: 125px;
+    height: 125px;
+    border: 1px solid red;
+    border-radius:80px ;
+    margin: 9px;
+    background: white;  
+}  
+h6{
+    color: #1F1E1C;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+ 
+
+
+
+@media screen and (max-width: 576px) {
+    .main_container {
+         width: 100%;
+        margin-left: 0;
+        margin-right: 0; 
+        margin-top: 23px;
+        align-items: center;  
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .timer_div {
+        justify-content: center;
+        bottom: 0px;
+        border: 1px solid red;
+    } 
+
+    .clock_first {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px; 
+    }
+
+    .clock_seconed {
+        width: 110px;
+        height: 110px;
+        border-radius: 55px;
+        margin: 5px;
+    }
+
+    h6 {
+        font-size: 12px;
+    } 
+} 
+
+
+
+  
+
+ 
