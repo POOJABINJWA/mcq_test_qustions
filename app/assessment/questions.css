@@ -11,6 +11,7 @@
     width: 560px;
     /* height: 321px; */
     margin-bottom: 40px;
+    border: 1px solid blue;
     
 }
 
@@ -19,6 +20,9 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    border: 1px solid blue;
+    
+
     
 }
 .question_container{
@@ -31,11 +35,15 @@
     border-radius: 12px;
     background-color: #fcfafa;
     padding: 40px;
+    border: 1px solid blue;
+    
      
 }   
 .question_text {
     padding-bottom: 28px;
     margin: 0px;
+    border: 1px solid blue;
+    
     
    
 
@@ -69,23 +77,25 @@
  @media screen and (max-width: 576px) {
     .Question_assessment_container {
         margin-left: 20px;
+        margin: 0px;
         margin-top: 10px; 
+        padding: 20px;
         
     }
     .questions {
         width: 100%;
-        height: auto;
         margin-bottom: 20px;
         border: 1px solid ;
 
     }
     .question_number {
-        width: auto;
+        /* width: auto; */
         font-size: 14px;
+        border: 1px solid red;
     }
 
     .score {
-        width: auto;
+        /* width: auto; */
         font-size: 12px;
     }
 
@@ -106,6 +116,5 @@
     }
 
 
-}
-    
+} 
 

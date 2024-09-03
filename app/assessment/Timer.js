@@ -1,7 +1,6 @@
 import Filter from "./Filters"
 import Questions_assessment_container from "./Questions_assessment"
 import "./Timer.css"
-import Mobile_pagination from "./Mobile_pagination"
 
 function Timer(){
     return(
@@ -13,6 +12,11 @@ function Timer(){
                             <div className="clock_seconed"></div>
                         </div>
                         <h6>Remaining Time</h6>
+                    </div>
+                    <div className="filter_buuton_box">
+                        <div className="line1"></div>
+                        <div className="line2"></div>
+                        <div className="line3"></div>
                     </div>
                     <Filter />  
             

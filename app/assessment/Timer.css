@@ -15,11 +15,14 @@
     top: -60px;
     border: 1px solid red;
     width: 286px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .timer_div{
     width: 150px;
     margin: auto;
+   
 
 } 
 
@@ -46,47 +49,69 @@ h6{
     margin: 0px;
     text-align: center;
 }
- 
-
 
 
 @media screen and (max-width: 576px) {
     .main_container {
-         width: 100%;
+        width: 100%
+        
+
+    }
+
+    .question_timer_container {
+        flex-direction: column;
+        align-items: center;
         margin-left: 0;
         margin-right: 0; 
-        margin-top: 23px;
-        align-items: center;  
-        display: flex;
-        flex-direction: column;
-    }  
+        margin-bottom: 50px; 
+    }
+
+    .timer_filter_div {
+        width: 100%; 
+        margin-top: 60px; 
+        border: 1px solid blue;
+        
+
+    }
 
     .timer_div {
-        justify-content: center;
-        bottom: 0px;
-        border: 1px solid red;
-    } 
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 23px;
+        
+
+    }
 
     .clock_first {
-        width: 120px;
+        width: 120px; 
         height: 120px;
-        border-radius: 60px; 
     }
 
     .clock_seconed {
-        width: 110px;
-        height: 110px;
-        border-radius: 55px;
-        margin: 5px;
+        width: 100px; 
+        height: 100px;
+       
+    }
+    .filter_buuton_box{
+        display: flex;
+        height: 39px;
+        width: 104px;
+        border: 1px solid red;
+        margin-right: 20px;
+        margin-top: 67px;
+
+    }
+    .line1{
+        width: 30px;
+        border-bottom: 1px solid blue;
     }
 
     h6 {
-        font-size: 12px;
-    } 
-} 
-
-
-
-  
+        display: none;
+    }
+}
 
  
+
+
+

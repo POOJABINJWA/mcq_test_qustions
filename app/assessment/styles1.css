@@ -8,14 +8,17 @@ body{
 }
 .header_seconed{
     background:  #FCFAFA;  
-    border: 3px solid green;
+    /* border: 2px solid red; */
+    height: auto; 
+    /* padding: 10px; */
+
     
 
 }
 .main_header{
     display: flex;
     width: 1200px;
-    height:72px;
+    /* height:72px; */
     margin:auto;
     border: 1px solid blueviolet;
     justify-content: space-between;
@@ -24,13 +27,13 @@ body{
 .logo_img{
   margin-top: 18px;
   margin-bottom: 18px;
-  border: 1px solid  rebeccapurple;
+  /* border: 1px solid  rebeccapurple; */
 
     
 } 
-.header_first{
-    display: none;
-}
+
+
+
 
 .submit_button{
     width: 130px;
@@ -47,7 +50,7 @@ body{
    box-shadow: 0px 4px 7px 0px #B3AE9C;
 }  
 
-.logo_padination{
+.logo_pagination{
     width:997px;
     display: flex;
     justify-content: space-between;
@@ -64,18 +67,74 @@ body{
     gap:16px;
     border: 1px solid blue;
     
-}   
+}  
  
- .page {
+ .page_first, .page_seconed ,.page_three, .page_four, .page_five, .page_six, .page_seven, .page_eight {
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     border-radius: 30px;
-    border: 2px solid #E0DFDA;
-    /* width: 10px; */
-    /* width: 40px; */
+    /* border: 2px solid #E0DFDA; */
+    border: 1px solid blueviolet;
     padding: 7px 10px 6px 10px;
-    border: 1px solid tomato;
+    
 } 
+.page_hidden{
+    display: none;
+}
 
+   
+
+
+
+@media screen and (max-width: 576px) {
+    .header_seconed{
+        border: 1px solid red; 
+        
+    }  
+    .main_header{
+        width:360px;
+        width: 100%;
+        /* display: block; */
+
+    }
+    .logo_pagination{
+        width: 100%;
+        display: block;
+    }
+    .logo_img{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+
+    }
+    
+     .page_number {
+        width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around; */
+    }
+    .page {
+        margin: 5px 0; 
+        padding: 5px 10px; 
+    }
+
+    .submit_button{
+        display: none;
+    }
+
+    .page_hidden{
+        display: block;
+    }
+
+    .page_seconed ,.page_three, .page_four,.page_six, .page_seven{
+        display: none;
+    }
+    
+    
+    
+} 
