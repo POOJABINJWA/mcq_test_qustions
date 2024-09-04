@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+.sumbitted_components{
+    width: 705px;
+    height: 516px;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 103px;
+    background:  #F9F7F2;
+
+}
+.correct_img{
+    width: 25px;
+    height: 25px;
+    background-color: #88BE37 ;
+    margin: auto;
+    margin-top: 65px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 30px;
+}
+.successfully_container{
+    width: 319px;
+    height: 142px;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 22px;
+}
+.check_score{
+    /* width: 222px; */
+    height: 54px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 98px;
+
+}
+.heading{
+    text-align: center;
+    margin: 0px;
+    color:  #1F1E1C;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600; 
+    
+}
+h6{
+    text-align: center;
+    color: #000;
+    padding-top: 36px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+.Paragraph{
+    padding: 24.5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    
+}
+.check_score{
+    width: 222px;
+    margin: auto;
+    margin-top: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid #F4D150;
+    background:  #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+
+}
+.title{
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .sumbitted_components {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .correct_img {
+        margin-top: 30px;
+    }
+
+    .successfully_container {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .check_score {
+        /* width: 100%; */
+        margin-top: 50px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    h6 {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .Paragraph {
+        padding: 15px;
+        font-size: 12px;
+    }
+}

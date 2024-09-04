@@ -11,9 +11,14 @@ function Header_assessment(){
                     <div className="logo_img"><img src="Logo.png"/></div>
                         <Pagination />     
                 </div>
+                {/* <a href="/successfully"> */}
                 <div className="submit_div">
+                    <a href="/successfully">
+
                     <button className="submit_button">Submit</button>
+                    </a>
                 </div>
+                
          
             </div>
         </div>
