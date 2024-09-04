@@ -5,8 +5,8 @@ function Questions_assessment_container(){
     return(
         <div className="Question_assessment_container">
             <Questions/>
-            {/* <Questions/>
-            <Questions/>    */}
+             <Questions/>
+            <Questions/>    
 
         </div>    
     )

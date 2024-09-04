@@ -13,10 +13,14 @@ function Timer(){
                         </div>
                         <h6>Remaining Time</h6>
                     </div>
-                    <div className="filter_buuton_box">
-                        <div className="line1"></div>
-                        <div className="line2"></div>
-                        <div className="line3"></div>
+                    <div className="popop_filter">
+                        <div className="line1">
+                            <div className="col1"></div>
+                            <div className="col2"></div>
+                            <div className="col3"></div>
+                        </div>
+                        <div className="filter_mobile">Filters</div>    
+                    
                     </div>
                     <Filter />  
             

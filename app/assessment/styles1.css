@@ -8,32 +8,21 @@ body{
 }
 .header_seconed{
     background:  #FCFAFA;  
-    /* border: 2px solid red; */
-    height: auto; 
-    /* padding: 10px; */
-
     
-
 }
 .main_header{
     display: flex;
     width: 1200px;
-    /* height:72px; */
     margin:auto;
-    border: 1px solid blueviolet;
     justify-content: space-between;
 
 }
 .logo_img{
   margin-top: 18px;
   margin-bottom: 18px;
-  /* border: 1px solid  rebeccapurple; */
-
+  
     
 } 
-
-
-
 
 .submit_button{
     width: 130px;
@@ -65,7 +54,6 @@ body{
     margin-top: 25px;
     margin-bottom: 17px;
     gap:16px;
-    border: 1px solid blue;
     
 }  
  
@@ -75,8 +63,7 @@ body{
     font-style: normal;
     font-weight: 400;
     border-radius: 30px;
-    /* border: 2px solid #E0DFDA; */
-    border: 1px solid blueviolet;
+    border: 2px solid #E0DFDA;
     padding: 7px 10px 6px 10px;
     
 } 
@@ -84,19 +71,13 @@ body{
     display: none;
 }
 
-   
-
-
 
 @media screen and (max-width: 576px) {
-    .header_seconed{
-        border: 1px solid red; 
-        
-    }  
+      
     .main_header{
         width:360px;
         width: 100%;
-        /* display: block; */
+        display: block;
 
     }
     .logo_pagination{
@@ -106,6 +87,8 @@ body{
     .logo_img{
         width: 100%;
         align-items: center;
+        margin: 0px;
+        height: 72px;
         display: flex;
         flex-direction: column;
         justify-content: center
@@ -114,9 +97,9 @@ body{
     
      .page_number {
         width: 100%;
-        /* display: flex;
+        display: flex;
         align-items: center;
-        justify-content: space-around; */
+        justify-content: space-around;
     }
     .page {
         margin: 5px 0; 
@@ -124,7 +107,10 @@ body{
     }
 
     .submit_button{
-        display: none;
+        display: block;
+        position: fixed;
+        top: 640px;
+        right: 20px
     }
 
     .page_hidden{
@@ -133,6 +119,11 @@ body{
 
     .page_seconed ,.page_three, .page_four,.page_six, .page_seven{
         display: none;
+    }
+    .pagination_main{
+        height:72px;
+        border: 1px solid ;
+
     }
     
     

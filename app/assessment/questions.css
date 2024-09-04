@@ -9,9 +9,7 @@
 } 
 .questions{
     width: 560px;
-    /* height: 321px; */
     margin-bottom: 40px;
-    border: 1px solid blue;
     
 }
 
@@ -20,32 +18,45 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    border: 1px solid blue;
+    font-family: "Inria Sans";
     
 
     
 }
+.question{
+    color:  #1F1E1C;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.score {
+    color:  #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}   
+
 .question_container{
-    /* height: 284px; */
     display: flex;
     margin-top: 16px;
     flex-direction: column;
-    /* align-items: flex-start; */
     gap: 15px; 
     border-radius: 12px;
     background-color: #fcfafa;
     padding: 40px;
-    border: 1px solid blue;
     
      
 }   
 .question_text {
     padding-bottom: 28px;
     margin: 0px;
-    border: 1px solid blue;
-    
-    
-   
+    color:  #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 160%;   
 
 }
 
@@ -59,7 +70,6 @@
     color:  #4C4B49;
     font-family: Inter;
     font-size: 14px;
-    /* font-style: normal; */
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -76,43 +86,29 @@
 
  @media screen and (max-width: 576px) {
     .Question_assessment_container {
-        margin-left: 20px;
+         margin-left: 20px;
         margin: 0px;
-        margin-top: 10px; 
-        padding: 20px;
+        margin-top: 50px;    
         
     }
     .questions {
         width: 100%;
-        margin-bottom: 20px;
-        border: 1px solid ;
 
     }
-    .question_number {
-        /* width: auto; */
-        font-size: 14px;
-        border: 1px solid red;
-    }
-
-    .score {
-        /* width: auto; */
-        font-size: 12px;
-    }
-
+    
     .question_container {
         padding: 20px;
-        gap: 10px;
-        
+        gap: 10px;   
         
     }
 
     .question_text {
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .options {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
