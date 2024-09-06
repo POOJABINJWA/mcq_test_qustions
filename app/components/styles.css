@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
-.Header{
-  border: 2px solid;
-  height: 72px;
+.Header{  height: 72px;
   margin:auto;
-  background: var(--Light-a, #FCFAFA); 
+  background:  #FCFAFA; 
 }
   
 .logo{
-  
-  margin-top: 20px;
-  justify-content: center;
+  padding-top: 11px;
   text-align: center;
+  line-height: 72px;
 }
 .title{
     color: #4C4B49;
@@ -20,11 +17,8 @@
     font-style: normal;
     font-weight: 600;
     text-align: center;
-    margin-top: 45px;
-    line-height: 120%; 
-    letter-spacing: -0.48px;
-    
-    
-    
+    margin-top: 55px;
+    margin-bottom: 19px;
+    line-height: 120%;    
     
 }
