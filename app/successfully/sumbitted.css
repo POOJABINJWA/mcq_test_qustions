@@ -3,18 +3,21 @@
 .sumbitted_components{
     width: 705px;
     height: 516px;
-    border: 1px solid blue;
+    border: 1px solid  #F9F7F2;
     margin: auto;
     margin-top: 103px;
     background:  #F9F7F2;
 
 }
 .correct_img{
-    width: 25px;
-    height: 25px;
     background-color: #88BE37 ;
     margin: auto;
-    margin-top: 65px;
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+
+text-align: center;    
+margin-top: 65px;
     text-align: center;
     padding: 1px;
     border-radius: 30px;
@@ -22,14 +25,14 @@
 .successfully_container{
     width: 319px;
     height: 142px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     margin-top: 22px;
 }
 .check_score{
     /* width: 222px; */
     height: 54px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 98px;
 
@@ -78,42 +81,43 @@ h6{
     display: none;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .sumbitted_components {
-        width: 100%;
-        height: auto;
+        margin: 20px;
         padding: 10px;
         box-sizing: border-box;
-    }
+        width: 320px;
+        margin-bottom: 0;
+        margin-top: 54px
+        }
 
     .correct_img {
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     .successfully_container {
         width: 100%;
         height: auto;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .check_score {
-        /* width: 100%; */
         margin-top: 50px;
-        height: auto;
-        padding: 10px;
+        margin-bottom: 60px;
+    margin-top: 50px;
     }
 
     .heading {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h6 {
-        padding-top: 20px;
+        padding-top: 18px;
         font-size: 12px;
     }
 
     .Paragraph {
-        padding: 15px;
+        padding: 35px;
         font-size: 12px;
     }
 }
