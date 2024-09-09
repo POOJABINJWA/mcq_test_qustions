@@ -4,7 +4,7 @@ function  About(){
     return(
         <div className="about_div">
             <div className="rulles">
-                <span>Instructions</span>
+                <div className="instruction">Instructions</div>
                 <p>Please read the instructions carefully before you begin:</p>
                 <ul>
                     <li>Timing: The test is timed. You have [specified time] minutes to complete all questions.</li>
@@ -24,9 +24,8 @@ function  About(){
             </div>    
             
             <div className="border_line"></div>
-            <a href="/assessment">
-            <button id="start_button">Lets Start!</button>
-             </a>   
+            
+            <a href="/assessment" className="start_button">Lets Start!</a> 
         </div>       
     )
 }

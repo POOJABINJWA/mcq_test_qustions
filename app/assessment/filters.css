@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .filter_container{
     height: 375px;
     width: 284px;
