@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
+
 *{
   box-sizing: border-box;
   padding: 0px;
@@ -91,7 +92,7 @@
   width: 620px;
   border-top: 1px solid #4C4B49; ;
   margin-left: 48px;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 @media (max-width: 576px) {
   .border_line {

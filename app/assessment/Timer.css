@@ -78,8 +78,8 @@
 
 @media screen and (max-width: 576px) {
     .clock_first {
-        width: 120px; 
-        height: 120px;
+        width: 100px; 
+        height: 100px;
     }
 }    
     
@@ -95,8 +95,9 @@
 
 @media screen and (max-width: 576px) {
     .clock_seconed {
-        width: 100px; 
-        height: 100px;
+        width: 85px; 
+        height: 85px;
+        margin: 6px;
        
     }
 }    
@@ -122,7 +123,7 @@ h6{
 @media screen and (max-width: 576px) {
     .popop_filter{
         height: 39px;
-        width: 104px;
+        width: 108px;
         margin-top: 40px;
         display: flex;
         align-items: center;
@@ -130,6 +131,7 @@ h6{
         border-radius: 6px;
         border: 2px solid #e0dfda;
         background: #fcfafa;
+        margin-right:10px
     }
     .col1{
         border-top: 2px solid #777671;
@@ -163,6 +165,7 @@ h6{
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
+        margin-right:10px
 
     }   
         
