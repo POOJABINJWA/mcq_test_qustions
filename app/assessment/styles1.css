@@ -94,7 +94,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 25px; 
-    margin-bottom: 17px;
     gap:16px;
     
 }  
@@ -103,16 +102,17 @@ body{
         width: 100%;
         display: flex;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 22px;
         justify-content: space-around;
+        
     }
 
 }
  
  .page_first, .page_seconed ,.page_three, .page_four, .page_five, .page_six, .page_seven, .page_eight {
     text-align: center;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 400;
@@ -139,8 +139,9 @@ body{
     }
 
     .pagination_main{
-        height:72px;
-        border: 1px solid #E0DFDA;
+        height:76px;
+        border-top:1px solid ;
+        box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
 
     }
     
