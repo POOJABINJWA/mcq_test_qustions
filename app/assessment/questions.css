@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    font-family: "Inria Sans";
+    font-family: "Inter", sans-serif;
     
 }
 

@@ -9,7 +9,15 @@ function Timer(){
                 <div className="timer_filter_div">
                     <div className="timer_div">
                         <div className="clock_first">
-                            <div className="clock_seconed"></div>
+                            <div className="clock_seconed">
+                                <div className="time">
+                                    <span class="minutes">50</span>
+                                    <span class="colon">:</span>
+                                    <span class="seconds">20</span>
+      
+                                </div>
+                                
+                            </div>
                         </div>
                         <h6>Remaining Time</h6>
                     </div>

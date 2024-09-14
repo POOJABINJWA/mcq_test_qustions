@@ -1,6 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
 body{
     margin:  0px;
     padding: 0px;
@@ -140,7 +139,7 @@ body{
 
     .pagination_main{
         height:76px;
-        border-top:1px solid ;
+        border-top:1px solid  lightgray;
         box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
 
     }

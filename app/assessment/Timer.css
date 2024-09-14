@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter');
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter');*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -92,12 +91,41 @@
     margin: 9px;
     background: white;  
 } 
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f26b6b;
+    margin-top: 30px;
+}
+.minutes,
+.seconds {
+    font-weight: bold;
+    color:  #E68086;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.colon {
+    margin: 0 0.2em;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   text-transform: uppercase;
+}
 
 @media screen and (max-width: 576px) {
     .clock_seconed {
         width: 85px; 
         height: 85px;
-        margin: 6px;
+        margin: 6.5px;
        
     }
 }    
