@@ -3,7 +3,7 @@ import "./questions.css"
 function Question() {
     return (
         <div className="questions">
-             <div className="question_score_div">
+            <div className="question_score_div">
                 <span className="question">Question 1</span>
                 <span className="score">Score +1</span>
             </div>
@@ -32,11 +32,11 @@ function Question() {
                         </label><br />
 
                     </div>
-                </form>    
+                </form>
 
-            </div> 
-        </div> 
-                
+            </div>
+        </div>
+
 
     )
 }

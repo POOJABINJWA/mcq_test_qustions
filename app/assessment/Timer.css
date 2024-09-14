@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria Sans');
-@import url('https://fonts.googleapis.com/css2?family=Inter'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter'); 
 
 *{
     margin: 0px;
@@ -27,7 +27,6 @@
 @media screen and (max-width: 576px) {
     .question_timer_container {
         flex-direction: column;
-        /* align-items: center; */
         margin-left: 20px ;
         margin-right: 20px; 
         margin-bottom: 20px; 
@@ -38,16 +37,13 @@
 .timer_filter_div{
     position: relative;
     top: -60px;
-    /* border: 1px solid red; */
     width: 286px;
     
 }
 @media screen and (max-width: 576px) {
     .timer_filter_div {
         width: 100%; 
-        /* margin-top: 60px;  */
         top:23px;
-        /* border: 1px solid blue; */
         display: flex;
         justify-content: space-between;
         
@@ -104,23 +100,19 @@
 .seconds {
     font-weight: bold;
     color:  #E68086;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
 }
 
 .colon {
-    margin: 0 0.2em;
-    color: var(--Dark-a, #1F1E1C);
-    font-family: Inter;
+    margin: 5px;
+    color:  #1F1E1C;
+    font-family: "Inter";
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-   text-transform: uppercase;
+   
 }
 
 @media screen and (max-width: 576px) {
@@ -166,16 +158,12 @@ h6{
     .col1{
         border-top: 2px solid #777671;
         padding-top: 2px;
-        height: 0;
-        stroke-width: 2px;
         margin-left: 10px;
         width: 16px;
     }
     .col2{
         border-top: 2px solid #777671;
         padding-top: 2px;
-        height: 0;
-        stroke-width: 2px;
         width: 13px;
         margin-left: 11px;
     } 
@@ -184,16 +172,13 @@ h6{
         width: 10px;
         margin-left: 12px;
         padding-top: 2px;
-        height: 0;
-        stroke-width: 2px;
+        
     }  
     .filter_mobile{
         color: #4c4b49;
-        font-family: Inria Sans;
+        font-family: "Inria Sans";
         font-size: 16px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
         text-transform: uppercase;
         margin-right:10px
 
