@@ -25,7 +25,7 @@ function  About(){
             
             <div className="border_line"></div>
             
-            <a href="/assessment" className="start_button">Lets Start!</a> 
+            <a href="/assignment" className="start_button">Lets Start!</a> 
         </div>       
     )
 }

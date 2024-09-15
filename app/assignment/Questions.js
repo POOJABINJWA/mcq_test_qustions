@@ -1,6 +1,6 @@
-import "./questions.css"
+import "./assignment.css";
 
-function Question() {
+function Questions() {
     return (
         <div className="questions">
             <div className="question_score_div">
@@ -40,4 +40,4 @@ function Question() {
 
     )
 }
-export default Question
+export default Questions

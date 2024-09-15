@@ -1,0 +1,85 @@
+
+.timer_div{
+    width: 150px;
+    margin: auto;  
+
+} 
+@media screen and (max-width: 576px) {
+    .timer_div {
+        margin: 0px;  
+
+    }
+}
+    
+
+.clock_first{  
+    width: 145px;
+    height: 145px;
+    border: 1px solid red;
+    border-radius:100px ;
+    background:  #EBE9E6;  
+}
+
+@media screen and (max-width: 576px) {
+    .clock_first {
+        width: 100px; 
+        height: 100px;
+    }
+}    
+    
+
+.clock_seconed{
+    width: 125px;
+    height: 125px;
+    border: 1px solid red;
+    border-radius:80px ;
+    margin: 9px;
+    background: white;  
+} 
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f26b6b;
+    margin-top: 30px;
+}
+.minutes,
+.seconds {
+    font-weight: bold;
+    color:  #E68086;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.colon {
+    margin: 5px;
+    color:  #1F1E1C;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+@media screen and (max-width: 576px) {
+    .clock_seconed {
+        width: 85px; 
+        height: 85px;
+        margin: 6.5px;
+       
+    }
+}    
+    
+h6{
+    color: #1F1E1C;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    h6 {
+        display: none;
+    }
+}    

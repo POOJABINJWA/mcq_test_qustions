@@ -1,4 +1,4 @@
-import "./styles1.css"
+import "./header_pagination.css"
 import Pagination from "./Pagination_components";
 
 

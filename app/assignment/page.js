@@ -1,12 +1,13 @@
 import Header_assessment from "./Header_assessment"
-import Timer from "./Timer";
+import Main_assignment from "./Main_assignment";
 
 
 function Assigment() {
     return (
         <>
-            <Header_assessment />
-            <Timer />
+        <Header_assessment />
+        <Main_assignment/>
+            
 
         </>
 

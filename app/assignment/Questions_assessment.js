@@ -1,5 +1,5 @@
-import "./questions.css"
-import Questions from "./Question_box"
+import "./assignment.css";
+import Questions from "./Questions"
 
 function Questions_assessment_container() {
     return (

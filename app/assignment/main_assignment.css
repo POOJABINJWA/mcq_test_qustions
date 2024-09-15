@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_container{
+    width: 1200px;
+    margin: auto;  
+     
+}
+@media screen and (max-width: 576px) {
+    .main_container {
+        width: 100% 
+    }          
+
+}
+
+.question_timer_container{
+    margin-left: 103px;
+    margin-right: 203px;
+    display: flex;
+    margin-bottom: 136px;
+}
+@media screen and (max-width: 576px) {
+    .question_timer_container {
+        flex-direction: column;
+        margin-left: 20px ;
+        margin-right: 20px; 
+        margin-bottom: 20px; 
+    }
+}    
+    
+
+.timer_filter_div{
+    position: relative;
+    top: -60px;
+    width: 286px;
+    
+}
+@media screen and (max-width: 576px) {
+    .timer_filter_div {
+        width: 100%; 
+        top:23px;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+}    
+    
+

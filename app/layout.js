@@ -1,4 +1,6 @@
+
 import { Inter } from "next/font/google";
+// import "./ font.css";
 import "./globals.css";
 import Footer from "./components/Footer.js";
 
