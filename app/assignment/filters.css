@@ -1,6 +1,3 @@
- @import url('https://fonts.googleapis.com/css2?family=Inria Sans');
-
- @import url('https://fonts.googleapis.com/css2?family=Inter');
  * {
      margin: 0px;
      padding: 0px;
@@ -28,14 +25,13 @@
  }
 
  .heading_filter {
-     height: 19px;
-     color: #4C4B49;
-     font-family: "Inria Sans";
-     font-size: 16px;
-     font-weight: 700;
-
-
+    height: 19px;
+    color: #4C4B49;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-weight: 700;
  }
+
 
  .Question_Score {
      height: 77px;
@@ -47,7 +43,7 @@
      font-family: "Inria Sans";
      font-size: 16px;
      font-weight: 400;
-     
+
  }
 
  .All_filter_number {

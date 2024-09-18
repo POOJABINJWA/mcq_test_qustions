@@ -1,43 +1,4 @@
-*{
-  box-sizing: border-box;
-}
+ /* @import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here'); 
 
-body{
-  background: #EBE9E6;;
-  margin:0px
-}
-.footer_div{
-  height: 171px;
-  background-color:#4C4B49;
-  margin:auto;
-  margin-top: 143px;
-}
-.text{
-  color: white;
-  justify-content: center;
-  text-align: center;
-  margin-top: 46px;
-  margin-bottom: 68px;
-} 
-.text p{
-  margin-top: 18px;
-}
-  
-@media (max-width: 600px) {
-  .footer_div {
-    height: auto;
-    padding: 20px;
-    margin-top: 50px;
-  }
-
-  .text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .text p {
-    margin-top: 10px;
-  }
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter');  */
