@@ -1,4 +1,3 @@
-import "./header_pagination.css"
 function Pagination(){
     return(
         <div className="pagination_main">
@@ -24,4 +23,4 @@ function Pagination(){
     )
 }
 
-export default Pagination
+export default Pagination;

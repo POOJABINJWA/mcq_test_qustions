@@ -1,4 +1,5 @@
 import "./timer.css";
+
 function Timer(){
     return(
         <div className="timer_div">
@@ -17,4 +18,4 @@ function Timer(){
         </div>
     )
 }
-export default Timer
+export default Timer;

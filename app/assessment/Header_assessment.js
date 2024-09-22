@@ -1,5 +1,5 @@
-import "./header_pagination.css"
-import Pagination from "./Pagination_components";
+import "./header_pagination.css";
+import Pagination from "./Pagination";
 
 
 
@@ -25,5 +25,5 @@ function Header_assessment() {
     )
 }
 
-export default Header_assessment
+export default Header_assessment;
 

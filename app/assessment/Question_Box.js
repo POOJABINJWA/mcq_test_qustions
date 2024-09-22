@@ -1,8 +1,6 @@
-import "./assignment.css";
-
-function Questions() {
+function Question_Box() {
     return (
-        <div className="questions">
+        <div className="question_box">
             <div className="question_score_div">
                 <span className="question">Question 1</span>
                 <span className="score">Score +1</span>
@@ -40,4 +38,4 @@ function Questions() {
 
     )
 }
-export default Questions
+export default Question_Box ;

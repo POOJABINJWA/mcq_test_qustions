@@ -1,9 +1,6 @@
-@media screen and (max-width: 576px){
-    .popop_filter{
-        display: none;
-    }
-}    
-
+.popop_filter{
+    display: none;
+}
 
 @media screen and (max-width: 576px) {
     .popop_filter{
@@ -16,7 +13,7 @@
         border-radius: 6px;
         border: 2px solid #e0dfda;
         background: #fcfafa;
-        /* margin-right:10px */
+
     }
     .col1{
         border-top: 2px solid #777671;

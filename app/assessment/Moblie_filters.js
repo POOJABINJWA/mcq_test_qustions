@@ -1,4 +1,5 @@
-import "./mobile_filter.css"
+import "./mobile_filter.css";
+
 function Moblile_filter(){
     return(
         <div className="popop_filter">
@@ -11,4 +12,4 @@ function Moblile_filter(){
         </div>
     )
 }
-export default Moblile_filter
+export default Moblile_filter;

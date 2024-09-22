@@ -1,4 +1,4 @@
-import "./About.css"
+import "./about.css"
 
 function  About(){
     return(
@@ -25,7 +25,7 @@ function  About(){
             
             <div className="border_line"></div>
             
-            <a href="/assignment" className="start_button">Lets Start!</a> 
+            <a href="/assessment" className="start_button">Lets Start!</a> 
         </div>       
     )
 }

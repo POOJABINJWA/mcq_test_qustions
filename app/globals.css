@@ -7,7 +7,7 @@ body{
   margin:0px
 }
 .footer_div{
-  height: 171px;
+  height: 200px;
   background-color:#4C4B49;
   margin:auto;
   margin-top: 143px;
@@ -17,8 +17,7 @@ body{
   justify-content: center;
   text-align: center;
   margin-top: 46px;
-  margin-bottom: 68px;
-} 
+}
 .text p{
   margin-top: 18px;
 }
@@ -40,4 +39,4 @@ body{
   }
 }
 
-
+ 
